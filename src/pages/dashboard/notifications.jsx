@@ -10,16 +10,16 @@ import { InformationCircleIcon } from "@heroicons/react/24/outline";
 
 export function Notifications() {
   const [showAlerts, setShowAlerts] = React.useState({
-    blue: true,
-    green: true,
-    orange: true,
-    red: true,
+    blue: false,
+    green: false,
+    orange: false,
+    red: false,
   });
   const [showAlertsWithIcon, setShowAlertsWithIcon] = React.useState({
-    blue: true,
-    green: true,
-    orange: true,
-    red: true,
+    blue: false,
+    green: false,
+    orange: false,
+    red: false,
   });
   const alerts = ["blue", "green", "orange", "red"];
 
